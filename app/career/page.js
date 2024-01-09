@@ -17,6 +17,7 @@ export default function Career() {
     try {
       const res = await fetch("/api/career", {
         method: "POST",
+        baseUrl: 'https://sivector.com',
         headers:{
             'Conetnt-Type': 'multipart/form-data'
         },
