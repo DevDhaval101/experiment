@@ -32,6 +32,7 @@ export default function Form(e) {
 
     const response = await fetch("/api/contact-form", {
       method: "POST",
+      baseUrl: 'https://sivector.com',
       headers: {
         "Content-Type": "application/json",
       },
