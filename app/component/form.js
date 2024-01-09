@@ -97,7 +97,7 @@ export default function Form(e) {
                 ref={inquiryRef}
               ></textarea>
             </div>
-            <button className="btn bg-indigo-500 text-white">
+            <button className="btn bg-[#0d6efd] p-2 min-h-0 h-fit text-white">
                 {
                     loading && (<span className="loading loading-spinner"></span>)
                 }

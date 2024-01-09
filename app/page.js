@@ -17,12 +17,12 @@ export default function Home() {
             width={500}
             height={375}
             alt="DFT image"
-            className="rounded-md"
+            className="rounded-md w-[342px] h-[256px]"
           ></Image>
           <p className="text-xl font-medium mx-2 mt-2">
             DFT Architecture and Implementation
           </p>
-          <Link href="" className="text-sm text-[#0d6efd] mx-2 py-4">
+          <Link href="/services#1" className="text-sm text-[#0d6efd] mx-2 py-4">
             Learn More...
           </Link>
         </div>
@@ -35,7 +35,7 @@ export default function Home() {
             className="rounded-md w-[342px] h-[256px]"
           ></Image>
           <p className="text-xl font-medium mx-2 mt-2">Scan Insertion</p>
-          <Link href="" className="text-sm text-[#0d6efd] mx-2 py-4">
+          <Link href="/services#2" className="text-sm text-[#0d6efd] mx-2 py-4">
             Learn More...
           </Link>
         </div>
@@ -50,7 +50,7 @@ export default function Home() {
           <p className="text-xl font-medium mx-2 mt-2">
             ATPG Pattern Generation for Different Fault Models
           </p>
-          <Link href="" className="text-sm text-[#0d6efd] mx-2 py-4">
+          <Link href="/services#3" className="text-sm text-[#0d6efd] mx-2 py-4">
             Learn More...
           </Link>
         </div>
@@ -63,7 +63,7 @@ export default function Home() {
             className="rounded-md w-[342px] h-[256px]"
           ></Image>
           <p className="text-xl font-medium mx-2 mt-2">MBIST</p>
-          <Link href="" className="text-sm text-[#0d6efd] mx-2 py-4">
+          <Link href="/services#4" className="text-sm text-[#0d6efd] mx-2 py-4">
             Learn More...
           </Link>
         </div>
@@ -76,7 +76,7 @@ export default function Home() {
             className="rounded-md w-[342px] h-[256px]"
           ></Image>
           <p className="text-xl font-medium mx-2 mt-2">IO Testing</p>
-          <Link href="" className="text-sm text-[#0d6efd] mx-2 py-4">
+          <Link href="/services#5" className="text-sm text-[#0d6efd] mx-2 py-4">
             Learn More...
           </Link>
         </div>
@@ -91,17 +91,17 @@ export default function Home() {
           <p className="text-xl font-medium mx-2 mt-2">
             Post Silicon Debug and ATE Support
           </p>
-          <Link href="" className="text-sm text-[#0d6efd] mx-2 py-4">
+          <Link href="/services#6" className="text-sm text-[#0d6efd] mx-2 py-4">
             Learn More...
           </Link>
         </div>
       </div>
 
-      <div className="h-20 bg-gradient-to-r from-[rgb(24,117,255)] to-[rgb(139,221,255)] flex justify-center items-center">
+      <div id="about-us"className="h-20 bg-gradient-to-r from-[rgb(24,117,255)] to-[rgb(139,221,255)] flex justify-center items-center">
         <p className="text-3xl">About Us</p>
       </div>
 
-      <section>
+      <section >
         <div className="flex items-center m-4 border rounded-md">
           <div className="p-2">
             <p className="text-xl font-medium">Welcome to SiVector Technology</p>
@@ -156,7 +156,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="h-20 bg-gradient-to-r from-[rgb(24,117,255)] to-[rgb(139,221,255)] flex justify-center items-center">
+      <div id="contact-us" className="h-20 bg-gradient-to-r from-[rgb(24,117,255)] to-[rgb(139,221,255)] flex justify-center items-center">
         <p className="text-3xl">Contact Us</p>
       </div>
 

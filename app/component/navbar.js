@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Image from "next/image";
 import { useEffect } from "react";
@@ -16,12 +16,15 @@ export default function Navbar() {
     <nav>
       <div className="navbar bg-base-100">
         <div className="flex-1">
-          <Image
-            src="/images/general/Sivector_logo.jpg"
-            width={160}
-            height={52}
-            alt="sivector logo"
-          ></Image>
+          <Link href='/'>
+            <Image
+              src="/images/general/Sivector_logo.jpg"
+              width={160}
+              height={52}
+              alt="sivector logo"
+            ></Image>
+          </Link>
+
           <p className="ml-2 text-xl">
             | Where your trust meets reliable partner
           </p>
@@ -33,24 +36,28 @@ export default function Navbar() {
                 <summary>Services</summary>
                 <ul className="p-2 bg-base-100 rounded-t-none w-[300px]">
                   <li>
-                    <Link href="#">DFT Architecture and Implementation</Link>
+                    <Link href="/services#1">
+                      DFT Architecture and Implementation
+                    </Link>
                   </li>
                   <li>
-                    <Link href="#">Scan Insertion</Link>
+                    <Link href="/services#2">Scan Insertion</Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="/services#3">
                       ATPG Pattern Generation for Different Fault Models
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">MBIST</Link>
+                    <Link href="/services#4">MBIST</Link>
                   </li>
                   <li>
-                    <Link href="#">IO Testing</Link>
+                    <Link href="/services#5">IO Testing</Link>
                   </li>
                   <li>
-                    <Link href="#">Post Silicon Debug and ATE Support</Link>
+                    <Link href="/services#6">
+                      Post Silicon Debug and ATE Support
+                    </Link>
                   </li>
                 </ul>
               </details>
@@ -95,16 +102,16 @@ export default function Navbar() {
               </details>
             </li>
             <li>
-              <a>About Us</a>
+              <Link href="/#about-us">About Us</Link>
             </li>
             <li>
-              <a>Contact Us</a>
+              <Link href="/#contact-us">Contact Us</Link>
             </li>
             <li>
-              <a>Career</a>
+              <Link href="/career">Career</Link>
             </li>
             <li>
-              <a>Home</a>
+              <Link href="/">Home</Link>
             </li>
           </ul>
         </div>
