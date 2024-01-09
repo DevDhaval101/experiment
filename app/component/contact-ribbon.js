@@ -36,23 +36,7 @@ export default function ContectRibbon() {
                 width={24}
                 height={24}
               ></Image>
-            </a>
-          </li>
-          <li>
-            <a
-              className="flex"
-              target="_blank"
-              href="tel:+917575098026"
-              title="Give us a call"
-            >
-              <Image
-                className="flex-shrink-0 mr-1"
-                src="/images/social/telephone.png"
-                alt="phone icon"
-                width={24}
-                height={24}
-              ></Image>
-              | +917575098026
+              | SiVector Technology Pvt Ltd
             </a>
           </li>
         </ul>
