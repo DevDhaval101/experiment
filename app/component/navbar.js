@@ -24,10 +24,6 @@ export default function Navbar() {
               alt="sivector logo"
             ></Image>
           </Link>
-
-          <p className="ml-2 text-xl">
-            | Where your trust meets reliable partner
-          </p>
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
