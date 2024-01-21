@@ -50,7 +50,7 @@ export default function Form(e) {
 
   return (
     <div className="flex items-center justify-center m-4">
-      <div className="flex gap-2">
+      <div className="flex flex-col md:flex-row gap-2">
         <Image
           src="/images/general/getin-touch.webp"
           alt="get in touch image"
@@ -92,9 +92,9 @@ export default function Form(e) {
             <div>
               <textarea
                 rows="5"
-                cols="50"
+                cols="35"
                 placeholder="Your Inquiry"
-                className="border border-slate-400 rounded-md p-1 m-1"
+                className="border border-slate-400 rounded-md px-1 m-1 w-[100%]"
                 ref={inquiryRef}
               ></textarea>
             </div>

@@ -6,15 +6,15 @@ export default function Services() {
       <div className="h-20 bg-gradient-to-r from-[rgb(24,117,255)] to-[rgb(139,221,255)] flex justify-center items-center">
         <p className="text-3xl">Our services</p>
       </div>
-      <section className="flex w-[70%] mx-auto">
+      <section className="flex md:w-[70%] w-[90%] mx-auto">
         <div className="grid grid-cols-1">
-          <div id="1" className="flex my-2 border rounded-md">
+          <div id="1" className="flex flex-col md:flex-row my-2 border rounded-md">
             <Image
               src="/images/services/1.DFT Architecture and Implementation.jpg"
               width={500}
               height={375}
               alt="DFT image"
-              className="rounded-md w-[500px] h-[375px]"
+              className="rounded-md md:w-[500px] md:h-[375px] w-[250px]]"
             ></Image>
             <div>
               <p className="text-xl font-medium mx-2 mt-2">
@@ -25,13 +25,13 @@ export default function Services() {
               </ul>
             </div>
           </div>
-          <div id="2"className="flex my-2 border rounded-md">
+          <div id="2"className="flex flex-col md:flex-row my-2 border rounded-md">
             <Image
               src="/images/services/2.Scan Insertion.jpg"
               width={500}
               height={375}
               alt="Scan Insertion image"
-              className="rounded-md w-[500px] h-[375px]"
+              className="rounded-md md:w-[500px] md:h-[375px] w-[250px]]"
             ></Image>
             <div>
               <p className="text-xl font-medium mx-2 mt-2">Scan Insertion</p>
@@ -58,13 +58,13 @@ export default function Services() {
               </ul>
             </div>
           </div>
-          <div id="3"className="flex my-2 border rounded-md">
+          <div id="3"className="flex flex-col md:flex-row my-2 border rounded-md">
             <Image
               src="/images/services/3.ATPG Pattern Generation.jpg"
               width={500}
               height={375}
               alt="ATPG Pattern Generation image"
-              className="rounded-md w-[500px] h-[375px]"
+              className="rounded-md md:w-[500px] md:h-[375px] w-[250px]]"
             ></Image>
             <div>
               <p className="text-xl font-medium mx-2 mt-2">
@@ -89,13 +89,13 @@ export default function Services() {
               </ul>
             </div>
           </div>
-          <div id="4" className="flex my-2 border rounded-md">
+          <div id="4" className="flex flex-col md:flex-row my-2 border rounded-md">
             <Image
               src="/images/services/4.MBIST.jpg"
               width={500}
               height={375}
               alt="MBIST image"
-              className="rounded-md w-[500px] h-[375px]"
+              className="rounded-md md:w-[500px] md:h-[375px] w-[250px]]"
             ></Image>
             <div>
               <p className="text-xl font-medium mx-2 mt-2">MBIST</p>
@@ -107,13 +107,13 @@ export default function Services() {
               </ul>
             </div>
           </div>
-          <div id="5" className="flex my-2 border rounded-md">
+          <div id="5" className="flex flex-col md:flex-row my-2 border rounded-md">
             <Image
               src="/images/services/5.IO Testing.jpg"
               width={500}
               height={375}
               alt="IO Testing image"
-              className="rounded-md w-[500px] h-[375px]"
+              className="rounded-md md:w-[500px] md:h-[375px] w-[250px]]"
             ></Image>
             <div>
               <p className="text-xl font-medium mx-2 mt-2">IO Testing</p>
@@ -123,13 +123,13 @@ export default function Services() {
               </ul>
             </div>
           </div>
-          <div id="6"className="flex my-2 border rounded-md">
+          <div id="6"className="flex flex-col md:flex-row my-2 border rounded-md">
             <Image
               src="/images/services/6.Post Silicon.jpg"
               width={500}
               height={375}
               alt="Post Silicon image"
-              className="rounded-md w-[500px] h-[375px]"
+              className="rounded-md md:w-[500px] md:h-[375px] w-[250px]]"
             ></Image>
             <div>
               <p className="text-xl font-medium mx-2 mt-2">

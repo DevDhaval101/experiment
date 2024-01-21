@@ -10,7 +10,7 @@ export default function Home() {
         <p className="text-3xl">Our services</p>
       </div>
 
-      <div className="m-2 grid grid-cols-4 gap-4">
+      <div className="m-2 grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="border rounded-md">
           <Image
             src="/images/services/1.DFT Architecture and Implementation.jpg"
@@ -102,7 +102,7 @@ export default function Home() {
       </div>
 
       <section >
-        <div className="flex items-center m-4 border rounded-md">
+        <div className="flex flex-col-reverse md:flex-row items-center m-4 border rounded-md">
           <div className="p-2">
             <p className="text-xl font-medium">Welcome to SiVector Technology</p>
             <p className="my-3 text-justify">
