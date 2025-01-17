@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Form from '@/app/component/form'
+import Form from "@/app/component/form";
 
 export default function Home() {
   return (
@@ -97,14 +97,19 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="about-us"className="h-20 bg-gradient-to-r from-[rgb(24,117,255)] to-[rgb(139,221,255)] flex justify-center items-center">
+      <div
+        id="about-us"
+        className="h-20 bg-gradient-to-r from-[rgb(24,117,255)] to-[rgb(139,221,255)] flex justify-center items-center"
+      >
         <p className="text-3xl">About Us</p>
       </div>
 
-      <section >
+      <section>
         <div className="flex flex-col-reverse md:flex-row items-center m-4 border rounded-md">
           <div className="p-2">
-            <p className="text-xl font-medium">Welcome to SiVector Technology</p>
+            <p className="text-xl font-medium">
+              Welcome to SiVector Technology
+            </p>
             <p className="my-3 text-justify">
               SiVector Technology is an ASIC DFT engineering service company
               within the domain of VLSI semiconductor design, embark by highly
@@ -120,20 +125,19 @@ export default function Home() {
               we do.
             </p>
             <p className="my-3 text-justify">
-              We believe in establishing strong partnerships with our clients,
-              working collaboratively to understand their unique requirements
-              and challenges. By leveraging our deep domain knowledge and
-              technical expertise, we aim to provide tailored solutions that
-              optimize the overall test strategy, reduce time-to-market, and
-              enhance the quality of ASIC designs.
+              What sets us apart is our team of highly skilled engineers who
+              possess extensive expertise in the design and implementation of
+              DFT methodologies for ASICs. With years of experience in the VLSI
+              industry, we have honed our skills to navigate the complexities of
+              modern chip design and ensure optimal testability, reliability,
+              and efficiency for our clients' ASIC designs.
             </p>
             <p className="my-3 text-justify">
-              We believe in establishing strong partnerships with our clients,
-              working collaboratively to understand their unique requirements
-              and challenges. By leveraging our deep domain knowledge and
-              technical expertise, we aim to provide tailored solutions that
-              optimize the overall test strategy, reduce time-to-market, and
-              enhance the quality of ASIC designs.
+              Our services encompass a wide range of ASIC DFT engineering
+              solutions tailored to meet our clients' specific needs. From scan
+              insertion, ATPG development, Pattern Simulation and fault coverage
+              analysis to post-silicon validation and debugging, we offer
+              end-to-end support throughout the entire DFT lifecycle.
             </p>
             <p className="my-3 text-justify">
               We believe in establishing strong partnerships with our clients,
@@ -156,7 +160,10 @@ export default function Home() {
         </div>
       </section>
 
-      <div id="contact-us" className="h-20 bg-gradient-to-r from-[rgb(24,117,255)] to-[rgb(139,221,255)] flex justify-center items-center">
+      <div
+        id="contact-us"
+        className="h-20 bg-gradient-to-r from-[rgb(24,117,255)] to-[rgb(139,221,255)] flex justify-center items-center"
+      >
         <p className="text-3xl">Contact Us</p>
       </div>
 
